@@ -17725,6 +17725,13 @@ struct OpenXRRestarter_t59BB3482FA6ED413E66F91ABE39820D83AAE8AA1_StaticFields
 	OpenXRRestarter_t59BB3482FA6ED413E66F91ABE39820D83AAE8AA1* ___s_Instance_8;
 };
 
+// SwitchBehaviour
+struct SwitchBehaviour_tBCC72AB32E8CB3F0EF9EB5113C44AEFF135E7A98  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.Boolean SwitchBehaviour::isOn
+	bool ___isOn_4;
+};
+
 // UnityEngine.SpatialTracking.TrackedPoseDriver
 struct TrackedPoseDriver_t5A2DEE7957ED76932DB7460383BF09AB1CB4CCCD  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -23510,12 +23517,15 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4823[4] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4825[5] = 
 {
 	static_cast<int32_t>(offsetof(RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA_StaticFields, ___kEditorToPlayerRequestDebuggerOutput_16)),static_cast<int32_t>(offsetof(RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA_StaticFields, ___kPlayerToEditorSendDebuggerOutput_17)),static_cast<int32_t>(offsetof(RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA, ___cacheSize_18)),static_cast<int32_t>(offsetof(RuntimeDebuggerOpenXRFeature_t1E3C60D2636DEC25D95E63BB3300DBFC5E9057BA, ___perThreadCacheSize_19)),0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4829[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4827[1] = 
 {
-	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4837[4] = 
+	static_cast<int32_t>(offsetof(SwitchBehaviour_tBCC72AB32E8CB3F0EF9EB5113C44AEFF135E7A98, ___isOn_4)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4828[4] = 
 {
 	static_cast<int32_t>(offsetof(XRPlatformControllerSetup_tF3241056E2DD26648305E205151EB2ACF3333628, ___m_LeftController_4)),static_cast<int32_t>(offsetof(XRPlatformControllerSetup_tF3241056E2DD26648305E205151EB2ACF3333628, ___m_RightController_5)),static_cast<int32_t>(offsetof(XRPlatformControllerSetup_tF3241056E2DD26648305E205151EB2ACF3333628, ___m_LeftControllerOculusPackage_6)),static_cast<int32_t>(offsetof(XRPlatformControllerSetup_tF3241056E2DD26648305E205151EB2ACF3333628, ___m_RightControllerOculusPackage_7)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4839[1] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4832[4] = 
+{
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4840[1] = 
 {
 	0,};
